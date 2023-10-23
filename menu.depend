@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1698079810 source:c:\users\mande\desktop\iti materils\new folder\lab1\menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+
