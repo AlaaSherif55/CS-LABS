@@ -1,0 +1,74 @@
+//check num is positive or negative or zero
+
+   /*
+   int num;
+   printf("Enter the  number to check: ");
+   scanf("%d",&num);
+   if(num>0)
+       printf("number is positive");
+   if(num==0)
+       printf("number is zero ");
+   else
+       printf("number is negative");
+    */
+
+
+//check the largest number among three numbers
+
+/*int num1,num2,num3;
+   printf("Enter the first number: ");
+   scanf("%d",&num1);
+   printf("Enter the second number: ");
+   scanf("%d",&num2);
+   printf("Enter the third number: ");
+   scanf("%d",&num3);
+   if(num1>num2&&num1>num3)
+     printf("the first number you enter is largest: %d ",num1);
+   else if(num2>num1&&num2>num3)
+     printf("the second number you enter is largest: %d ",num2);
+   else
+     printf("the third number you enter is largest: %d  ",num3);
+*/
+
+//check number is even or odd
+
+  /*int num;
+  printf("enter number");
+  scanf("%d",&num);
+  if(num%2==0)
+     printf("num is even");
+  else
+     printf("odd");*/
+
+//grades
+  /* int grade;
+   printf("Enter the grade: ");
+   scanf("%d",&grade);
+
+   if(grade>0&&grade<50)
+       printf("Fail");
+   else if(grade>=50&&grade<65)
+       printf("Pass");
+   else if(grade>=65&&grade<75)
+       printf("Good");
+   else if(grade>=75&&grade<85)
+       printf("Very good");
+   else if(grade>=85&&grade<100)
+       printf("Excellent");
+*/
+
+/*
+   int num1,num2,num3;
+   printf("Enter the first number: ");
+   scanf("%d",&num1);
+   printf("Enter the second number: ");
+   scanf("%d",&num2);
+   printf("Enter the third number: ");
+   scanf("%d",&num3);
+   if(num1>num2&&num1>num3)
+       printf("The largest is the first number you enter: %d ",num1);
+   else if(num2>num1&&num2>num3)
+       printf("The largest is the second number you enter: %d ",num2);
+   else
+       printf("The largest is the third number you enter: %d ",num3);
+*/

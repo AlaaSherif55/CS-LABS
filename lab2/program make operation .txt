@@ -1,0 +1,56 @@
+int main()
+{
+char operation;
+int num1,num2;
+printf("Enter the first number: ");
+if(!scanf("%d",&num1)){
+    printf("OOP!Please enter correct type of first number :");
+    getchar();
+    scanf("%d",&num1);
+}
+printf("Enter the second number: ");
+if(!scanf("%d",&num2)){
+    printf("OOP!Please enter correct type of second number :");
+    getchar();
+    scanf("%d",&num2);
+}
+printf("Enter the operation: ");
+scanf(" %c",&operation);
+
+
+switch(operation){
+case '+':
+    printf("The result is %d + %d = %d",num1,num2,num1+num2); break;
+case '-':
+    printf("The result is %d - %d = %d",num1,num2,num1-num2); break;
+case '*':
+    printf("The result is %d * %d = %d",num1,num2,num1*num2); break;
+case '/':
+    if(num2==0)
+        printf("There is error divide by 0");
+    else
+        printf("The result is %d / %d = %lf",num1,num2,(double)num1/num2); break;
+default:
+    printf("You enter an error operation");
+}
+   return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
